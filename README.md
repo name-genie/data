@@ -54,13 +54,13 @@ state - 状态
 - [name](name) 姓氏/名字
 
 ```text
-生成算法：(prefix) + [interfix] + (suffix)
+生成算法：(prefix) + (suffix)
 ```
 
-- [nation](nation) 国家/联盟
+- [nation](nation) 国家
 
 ```text
-生成算法：(stem) + (suffix)
+生成算法：(stem) + [interfix] + (suffix)
 ```
 
 - [place](place) 地名
