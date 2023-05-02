@@ -4,17 +4,85 @@
 
 ## 目录
 
+```text
+() - 表示可自定义
+[] - 表示可选
+<> - 表示必须
+prefix - 前缀
+stem - 词干
+interfix - 连接
+suffix - 后缀
+state - 状态
+```
+
 - [alchemy](alchemy) 丹药
+
+```text
+生成算法：(stem) + (suffix)
+```
+
 - [book](book) 秘籍
+
+```text
+生成算法：(stem) + [(interfix)] + (suffix) + [(state)]
+```
+
+- [clan](clan) 门派
+
+```text
+生成算法：(stem) + (suffix)
+```
+
 - [creature](creature) 生灵
-- [dao](dao) 法号
-- [name](name) 姓氏/名字
+
+```text
+生成算法：(stem) + [(interfix)] + (suffix)
+```
+
+- [dao](dao) 道号
+
+```text
+生成算法：(stem) + (suffix)
+```
+
 - [material](material) 材料
-- [organization](organization) 宗派/国家
+
+```text
+生成算法：(stem) + (suffix) + [(state)]
+```
+
+- [name](name) 姓氏/名字
+
+```text
+生成算法：(prefix) + [interfix] + (suffix)
+```
+
+- [nation](nation) 国家/联盟
+
+```text
+生成算法：(stem) + (suffix)
+```
+
 - [place](place) 地名
-- [shared](shared) 通用
+
+```text
+生成算法：(stem) + (suffix)
+```
+
 - [skill](skill) 功法
+
+```text
+生成算法1：[numfix] + 路 + [prefix] + (stem) + (suffix)
+生成算法2：[prefix] + (stem) + (suffix) + [numfix] + 式
+```
+
 - [talisman](talisman) 法宝
+
+```text
+生成算法：(stem) + [(interfix)] + (suffix) + [(state)]
+```
+
+- [shared](shared) 通用，其他stem组成的来源
 
 ## 特别感谢
 
